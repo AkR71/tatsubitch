@@ -18,6 +18,9 @@
 /* Any images you use MUST end with .jpg or .png or any other image extension */
 
 :root {
+  --font-primary: Montserrat;
+  --font-display: Montserrat;
+
   /*
     Theme Background
   */
