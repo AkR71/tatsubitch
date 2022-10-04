@@ -18,12 +18,13 @@
 /* Any images you use MUST end with .jpg or .png or any other image extension */
 
 :root {
-  --font-primary: Montserrat;
-  --font-display: Montserrat;
+  --font-primary: Poppins;
+  --font-display: Poppins;
 
   /*
     Theme Background
   */
+
   --theme-background-image: url(https://raw.githubusercontent.com/ItsTatsuya/akrbitch/main/image.png);
 
   /*
@@ -34,7 +35,7 @@
   /*
     Main Theme Transparency
   */
-  --theme-transparency: rgba(0, 0, 0, 0.6);
+  --theme-transparency: rgba(0, 0, 0, 0.2);
 
   /*
     Home Icon Image
