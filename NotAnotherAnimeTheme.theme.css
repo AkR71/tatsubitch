@@ -38,21 +38,6 @@
   --theme-transparency: rgba(0, 0, 0, 0.4);
 
   /*
-    Home Icon Image
-  */
-  --home-icon-image: url(https://images.flydiscs.com/design/600795/blob_web_image.jpg);
-
-  /*
-    Change your friends icon image position
-  */
-  --home-icon-image-position: center center;
-
-  /*
-    Change your friends icon image zoom
-  */
-  --home-icon-image-zoom: 100%;
-
-  /*
     Server Listing Width
     Single Column:  72px
     Double Column:  126px
