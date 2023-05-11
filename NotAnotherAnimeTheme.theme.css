@@ -8,16 +8,21 @@
 * @updateUrl https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css
 */
 
-@forward "naat.v3.css";
+@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
+
+/*
+  To make editing this theme easier I recommend using Notepad++
+  you can download it for free here https://notepad-plus-plus.org/download/
+*/
+
+/* Any images you use MUST end with .jpg or .png or any other image extension */
 
 :root {
   --font-primary: Poppins;
   --font-display: Poppins;
-
   /*
     Theme Background
   */
-
   --theme-background-image: url(https://i.imgur.com/5IOriwA.png);
 
   /*
@@ -31,13 +36,28 @@
   --theme-transparency: rgba(0, 0, 0, 0.4);
 
   /*
+    Home Icon Image
+  */
+  --home-icon-image: url(https://i.imgur.com/63g6Em8.jpg);
+
+  /*
+    Change your friends icon image position
+  */
+  --home-icon-image-position: center center;
+
+  /*
+    Change your friends icon image zoom
+  */
+  --home-icon-image-zoom: 100%;
+
+  /*
     Server Listing Width
-    Single Column:  72px
+    Single Column:  62px
     Double Column:  126px
     Triple Column:  184px
     Quad Column:    242px
   */
-  --server-listing-width: 120px;
+  --server-listing-width: 126px;
 
   /*
     Font Size
@@ -65,9 +85,9 @@
   /*
     Video / Screen share buttons
   */
-  --video-screen-button-background-color: rgba(200, 200, 200, 0.1);
+  --video-screen-button-background-color: rgba(200, 200, 200, 0.2);
   --video-screen-button-foreground-color: white;
-  --video-screen-button-background-hovor-color: rgba(200, 200, 200, 0.2);
+  --video-screen-button-background-hovor-color: rgba(200, 200, 200, 0.4);
   --video-screen-button-foreground-hovor-color: white;
 
   /*
@@ -131,7 +151,7 @@
   /*
     Scrollbar Colors
   */
-  --scrollbar-color: rgba(200, 200, 200, 0.8);
+  --scrollbar-color: rgba(200, 200, 200, 0.2);
 
   /*
     Unread Message Divider
